@@ -1,0 +1,39 @@
+.contact {
+    height: 100%;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $primary-color;
+
+    h2 {
+        width: 60vw;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        width: 60vw;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    &__email,
+    &__phone {
+        margin-bottom: 1rem;
+    }
+
+    &__letter {
+        width: 60vw;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    p {
+        line-height: 5vh;
+    }
+
+
+}
